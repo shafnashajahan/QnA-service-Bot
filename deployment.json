@@ -1,0 +1,197 @@
+{
+  "id": "/subscriptions/9574ec07-3673-4fd3-8cdd-19626884f4cd/resourceGroups/ComputationalLinquistics/providers/Microsoft.Resources/deployments/computationallinquistics-bot_csharp_qnav4_sdk_804",
+  "name": "computationallinquistics-bot_csharp_qnav4_sdk_804",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/9574ec07-3673-4fd3-8cdd-19626884f4cd/resourcegroups/ComputationalLinquistics/providers/Microsoft.BotService/botServices/computationallinquistics-bot",
+    "marketplaceItemId": "Microsoft.BotServiceSdkGalleryPackage"
+  },
+  "properties": {
+    "templateHash": "14889004781968969876",
+    "parameters": {
+      "botEnv": {
+        "type": "String",
+        "value": "prod"
+      },
+      "botId": {
+        "type": "String",
+        "value": "computationallinquistics-bot"
+      },
+      "location": {
+        "type": "String",
+        "value": "West US"
+      },
+      "sku": {
+        "type": "String",
+        "value": "S1"
+      },
+      "kind": {
+        "type": "String",
+        "value": "sdk"
+      },
+      "siteName": {
+        "type": "String",
+        "value": "computationallinquistics-bot-9951"
+      },
+      "createNewStorage": {
+        "type": "Bool",
+        "value": true
+      },
+      "storageAccountName": {
+        "type": "String",
+        "value": "computationallinquistics"
+      },
+      "storageAccountLocation": {
+        "type": "String",
+        "value": ""
+      },
+      "storageAccountResourceId": {
+        "type": "String",
+        "value": ""
+      },
+      "appId": {
+        "type": "String",
+        "value": "89bbb03c-1b62-401b-ae0f-37dd1a967757"
+      },
+      "appSecret": {
+        "type": "String",
+        "value": "31VzB^Dg0Xt0{I8Xy@;aa^RXVg"
+      },
+      "azureWebJobsBotFrameworkDirectLineSecret": {
+        "type": "String",
+        "value": ""
+      },
+      "zipUrl": {
+        "type": "String",
+        "value": "https://bot-framework.azureedge.net/static/300418-d707bc5f0d/bot-packages/v1.3.27-299461/csharp-abs-webapp-v4_qnabot_precompiled.zip"
+      },
+      "proactiveZipUrl": {
+        "type": "String",
+        "value": ""
+      },
+      "useAppInsights": {
+        "type": "Bool",
+        "value": false
+      },
+      "appInsightsLocation": {
+        "type": "String",
+        "value": "East US"
+      },
+      "serverFarmId": {
+        "type": "String",
+        "value": "/subscriptions/9574ec07-3673-4fd3-8cdd-19626884f4cd/resourceGroups/ComputationalLinquistics/providers/Microsoft.Web/serverfarms/ComputationalLinquistics"
+      },
+      "createServerFarm": {
+        "type": "Bool",
+        "value": false
+      },
+      "serverFarmLocation": {
+        "type": "String",
+        "value": "West US"
+      },
+      "serverFarmSku": {
+        "type": "Object",
+        "value": {
+          "name": "S1",
+          "tier": "Standard",
+          "size": "S1",
+          "family": "S",
+          "capacity": 1
+        }
+      },
+      "endpoint": {
+        "type": "String",
+        "value": ""
+      },
+      "luisApiLocation": {
+        "type": "String",
+        "value": "Global"
+      },
+      "botQueueName": {
+        "type": "String",
+        "value": "bot-queue"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2022-04-26T06:13:06.3645157Z",
+    "duration": "PT1M6.4697931S",
+    "correlationId": "614e12e4-86dd-45fb-b9e2-16cb97cdaef8",
+    "providers": [
+      {
+        "namespace": "Microsoft.Web",
+        "resourceTypes": [
+          {
+            "resourceType": "sites",
+            "locations": [
+              "westus"
+            ]
+          },
+          {
+            "resourceType": "sites/Extensions",
+            "locations": [
+              null
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.BotService",
+        "resourceTypes": [
+          {
+            "resourceType": "botServices",
+            "locations": [
+              "global"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/9574ec07-3673-4fd3-8cdd-19626884f4cd/resourceGroups/ComputationalLinquistics/providers/Microsoft.Web/sites/computationallinquistics-bot-9951",
+            "resourceType": "Microsoft.Web/sites",
+            "resourceName": "computationallinquistics-bot-9951"
+          }
+        ],
+        "id": "/subscriptions/9574ec07-3673-4fd3-8cdd-19626884f4cd/resourceGroups/ComputationalLinquistics/providers/Microsoft.Web/sites/computationallinquistics-bot-9951/Extensions/MSDeploy",
+        "resourceType": "Microsoft.Web/sites/Extensions",
+        "resourceName": "computationallinquistics-bot-9951/MSDeploy"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/9574ec07-3673-4fd3-8cdd-19626884f4cd/resourceGroups/ComputationalLinquistics/providers/Microsoft.Web/sites/computationallinquistics-bot-9951",
+            "resourceType": "Microsoft.Web/sites",
+            "resourceName": "computationallinquistics-bot-9951"
+          },
+          {
+            "id": "/subscriptions/9574ec07-3673-4fd3-8cdd-19626884f4cd/resourceGroups/ComputationalLinquistics/providers/Microsoft.Web/sites/computationallinquistics-bot-9951/Extensions/MSDeploy",
+            "resourceType": "Microsoft.Web/sites/Extensions",
+            "resourceName": "computationallinquistics-bot-9951/MSDeploy"
+          }
+        ],
+        "id": "/subscriptions/9574ec07-3673-4fd3-8cdd-19626884f4cd/resourceGroups/ComputationalLinquistics/providers/Microsoft.BotService/botServices/computationallinquistics-bot",
+        "resourceType": "Microsoft.BotService/botServices",
+        "resourceName": "computationallinquistics-bot"
+      }
+    ],
+    "outputResources": [
+      {
+        "id": "/subscriptions/9574ec07-3673-4fd3-8cdd-19626884f4cd/resourceGroups/ComputationalLinquistics/providers/Microsoft.BotService/botServices/computationallinquistics-bot"
+      },
+      {
+        "id": "/subscriptions/9574ec07-3673-4fd3-8cdd-19626884f4cd/resourceGroups/ComputationalLinquistics/providers/Microsoft.Web/sites/computationallinquistics-bot-9951"
+      },
+      {
+        "id": "/subscriptions/9574ec07-3673-4fd3-8cdd-19626884f4cd/resourceGroups/ComputationalLinquistics/providers/Microsoft.Web/sites/computationallinquistics-bot-9951/Extensions/MSDeploy"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}

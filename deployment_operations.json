@@ -1,0 +1,65 @@
+[
+  {
+    "id": "/subscriptions/9574ec07-3673-4fd3-8cdd-19626884f4cd/resourceGroups/ComputationalLinquistics/providers/Microsoft.Resources/deployments/computationallinquistics-bot_csharp_qnav4_sdk_804/operations/2D85F2AF3CC9C789",
+    "operationId": "2D85F2AF3CC9C789",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-04-26T06:13:05.3128934Z",
+      "duration": "PT1M2.2948171S",
+      "trackingId": "a4268468-e6ec-4a5e-9177-532558079c3b",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/9574ec07-3673-4fd3-8cdd-19626884f4cd/resourceGroups/ComputationalLinquistics/providers/Microsoft.BotService/botServices/computationallinquistics-bot",
+        "resourceType": "Microsoft.BotService/botServices",
+        "resourceName": "computationallinquistics-bot"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/9574ec07-3673-4fd3-8cdd-19626884f4cd/resourceGroups/ComputationalLinquistics/providers/Microsoft.Resources/deployments/computationallinquistics-bot_csharp_qnav4_sdk_804/operations/AA0877000EFE0332",
+    "operationId": "AA0877000EFE0332",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-04-26T06:12:48.2723831Z",
+      "duration": "PT45.2543068S",
+      "trackingId": "93da9369-9ab7-4da3-ad9a-3484c7b79a17",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/9574ec07-3673-4fd3-8cdd-19626884f4cd/resourceGroups/ComputationalLinquistics/providers/Microsoft.Web/sites/computationallinquistics-bot-9951/Extensions/MSDeploy",
+        "resourceType": "Microsoft.Web/sites/Extensions",
+        "resourceName": "computationallinquistics-bot-9951/MSDeploy"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/9574ec07-3673-4fd3-8cdd-19626884f4cd/resourceGroups/ComputationalLinquistics/providers/Microsoft.Resources/deployments/computationallinquistics-bot_csharp_qnav4_sdk_804/operations/F133FBF267300870",
+    "operationId": "F133FBF267300870",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-04-26T06:12:26.9813574Z",
+      "duration": "PT23.9632811S",
+      "trackingId": "18d614ae-8ef8-4e7f-b250-5af5818f8f8d",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/9574ec07-3673-4fd3-8cdd-19626884f4cd/resourceGroups/ComputationalLinquistics/providers/Microsoft.Web/sites/computationallinquistics-bot-9951",
+        "resourceType": "Microsoft.Web/sites",
+        "resourceName": "computationallinquistics-bot-9951"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/9574ec07-3673-4fd3-8cdd-19626884f4cd/resourceGroups/ComputationalLinquistics/providers/Microsoft.Resources/deployments/computationallinquistics-bot_csharp_qnav4_sdk_804/operations/08585506533683777608",
+    "operationId": "08585506533683777608",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-04-26T06:13:06.1637143Z",
+      "duration": "PT0.5739688S",
+      "trackingId": "c8ee31c2-0a4e-4b4d-b4d3-98bea31091a8",
+      "statusCode": "OK"
+    }
+  }
+]
